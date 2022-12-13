@@ -6,13 +6,13 @@ class Product
     public string $photo;
     public string $name;
     public string $brand;
-    public int $price;
+    public float $price;
     public $discount;
     public $category;
 
 
     //costruttore - CONSTRUCTOR
-    public function __construct(string $_photo, string $_name, string $_brand, int $_price, $_discount, Category $_category)
+    public function __construct(string $_photo, string $_name, string $_brand, float $_price, $_discount, Category $_category)
     {
         $this->photo = $_photo;
         $this->name = $_name;
