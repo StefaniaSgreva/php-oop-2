@@ -32,11 +32,79 @@
                         <div class="age">
                             <?php echo $food->age ?>
                         </div>
-
                     </div>
                 </div>
             </div>
+            <?php } ?>
+        </div>
 
+        <div class="row">
+            <?php foreach ($games as $game) { ?>
+            <div class="col">
+                <div class="card">
+                    <div class="category">
+                        <?php echo $game->category->name ?>
+                    </div>
+                    <div class="poster">
+                        <img src="<?php echo $game->photo ?>" alt="<?php echo $game->name ?>">
+                    </div>
+                    <div class="infos">
+                        <h3>
+                            <?php echo $game->name ?>
+                        </h3>
+                        <div class="brand">
+                            <?php echo $game->brand ?>
+                        </div>
+                        <div class="price">
+                            <div class="euro">
+                                €
+                                <?php echo $game->price ?>0
+                            </div>
+                            <div class="discount">
+                                <?php echo $game->discount ? $game->discount . '%' : '' ?>
+                            </div>
+                        </div>
+                        <div class="color">
+                            <?php echo $game->color ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
+        </div>
+
+        <div class="row">
+            <?php foreach ($kennels as $kennel) { ?>
+            <div class="col">
+                <div class="card">
+                    <div class="category">
+                        <?php echo $kennel->category->name ?>
+                    </div>
+                    <div class="poster">
+                        <img src="<?php echo $kennel->photo ?>" alt="<?php echo $kennel->name ?>">
+                    </div>
+                    <div class="infos">
+                        <h3>
+                            <?php echo $kennel->name ?>
+                        </h3>
+                        <div class="brand">
+                            <?php echo $kennel->brand ?>
+                        </div>
+                        <div class="price">
+                            <div class="euro">
+                                €
+                                <?php echo $kennel->price ?>0
+                            </div>
+                            <div class="discount">
+                                <?php echo $kennel->discount ? $kennel->discount . '%' : '' ?>
+                            </div>
+                        </div>
+                        <div class="size">
+                            <?php echo $kennel->size ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <?php } ?>
         </div>
     </div>
