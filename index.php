@@ -12,7 +12,7 @@ require_once __DIR__ . '/Models/Kennel.php';
 //PRODOTTI
 
 $foods = [
-    new Food('https://www.argolandia.it/images/pet-010.jpg?osCsid=4ess2tksn2f8491ivfv4jbh484', 'Manzo e Patate', 'prolife', 58.60, 20, new Category("Cane"), '10kg', 'adult'),
+    new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category("Cane"), '3kg', 'adult'),
     new Food('https://www.robinsonpetshop.it/12918-thickbox_default/prolife-sterilised-sensitive-adult-quaglia-e-patate-per-gatti.jpg', 'Quaglia e Patate', 'prolife', 52.30, 10, new Category("Gatto"), '8kg', 'adult'),
     new Food('https://www.petschoice.it/download/61ce67d_1stchoicecucciolorosa.jpg', 'Agnello, Pesce e Riso', 'Puppy Chiot', 70.20, '', new Category("Cane"), '15kg', 'adult'),
 ];
