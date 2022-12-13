@@ -29,6 +29,37 @@ main{
     justify-content: center;
     align-items: center;
 }
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+.infos{
+    background-color: lightgray;
+    width: 200px;
+    height: fit-content;
+    padding: .75rem;
+}
 footer{
      background-color: blanchedalmond;
     height: 60px;

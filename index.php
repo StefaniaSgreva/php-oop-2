@@ -26,11 +26,11 @@ $kennels = [
     new Kennel('https://www.cucciapercani.info/wp-content/uploads/2018/08/pets-imperial-sussex-casa-per-cani-di-taglia-media-in-legno-1.jpg', 'Cuccia in legno da esterno', 'Pets Imperial', 68.90, 10, new Category("Cane"), 'Large'),
     new Kennel('https://www.in-vendita.it/sh-img/habicat-cuccia-occhi-di-gatto-01-600x800_cuccia%2Bgatti.jpg', 'Cuccia in legno', 'Felix', 35.20, '', new Category("Gatto"), 'Medium'),
 ];
-var_dump($foods, $games, $kennels);
+// var_dump($foods, $games, $kennels);
 
 //LAYOUT
-// include __DIR__ . '/partials/header.php';
-// include __DIR__ . '/partials/main.php';
-// include __DIR__ . '/partials/footer.php';
+include __DIR__ . '/partials/header.php';
+include __DIR__ . '/partials/main.php';
+include __DIR__ . '/partials/footer.php';
 
 ?>
