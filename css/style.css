@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+header{
+    background-color: blanchedalmond;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+     background-color: blanchedalmond;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
