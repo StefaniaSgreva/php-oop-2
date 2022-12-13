@@ -14,7 +14,8 @@ require_once __DIR__ . '/Models/Kennel.php';
 $foods = [
     new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category("Cane"), '3kg', 'adult'),
     new Food('https://www.robinsonpetshop.it/12918-thickbox_default/prolife-sterilised-sensitive-adult-quaglia-e-patate-per-gatti.jpg', 'Quaglia e Patate', 'prolife', 52.30, 10, new Category("Gatto"), '8kg', 'adult'),
-    new Food('https://www.petschoice.it/download/61ce67d_1stchoicecucciolorosa.jpg', 'Agnello, Pesce e Riso', 'Puppy Chiot', 70.20, '', new Category("Cane"), '15kg', 'adult'),
+    new Food('https://www.petschoice.it/download/61ce67d_1stchoicecucciolorosa.jpg', 'Agnello, Pesce e Riso', 'Puppy Chiot', 70.20, '', new Category("Cane"), '15kg', 'puppy'),
+    new Food('https://www.croccantinibio.it/wp-content/uploads/2020/03/crocchette-ultima-cane.jpg', 'Bovino e Cereali', 'ultima', 35.80, '25', new Category("Cane"), '3kg', 'adult'),
 ];
 $games = [
     new Game('https://i5.walmartimages.com/asr/a915e9cc-5517-4e4c-aa7f-6286b0efd5e7_1.d5a864a08084249b9f7a43857cf6527b.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff', 'Palla', 'Felix', 5.50, 5, new Category("Cane"), 'blu'),
