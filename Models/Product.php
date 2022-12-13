@@ -1,0 +1,26 @@
+<?php
+
+class Product
+{
+    //variabili d'istanza - VARIABLES
+    public string $photo;
+    public string $name;
+    public string $brand;
+    public int $price;
+    public $discount;
+    public $category;
+
+
+    //costruttore - CONSTRUCTOR
+    public function __construct(string $_photo, string $_name, string $_brand, int $_price, $_discount, Category $_category)
+    {
+        $this->photo = $_photo;
+        $this->name = $_name;
+        $this->brand = $_brand;
+        $this->price = $_price;
+        $this->discount = $_discount;
+        $this->category = $_category;
+    }
+
+//metodi - METHODS
+}
