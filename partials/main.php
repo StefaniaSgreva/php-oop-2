@@ -1,5 +1,8 @@
 <main>
     <div class="container">
+        <!-- FOOD  -->
+        <h2>Cibo per cani e gatti <i class="fa-solid fa-paw"></i></h2>
+
         <div class="row">
             <?php foreach ($foods as $food) { ?>
             <div class="col">
@@ -38,6 +41,9 @@
             <?php } ?>
         </div>
 
+        <!-- GAMES  -->
+        <h2>Giochi per cani e gatti <i class="fa-solid fa-paw"></i></h2>
+
         <div class="row">
             <?php foreach ($games as $game) { ?>
             <div class="col">
@@ -72,6 +78,9 @@
             </div>
             <?php } ?>
         </div>
+
+        <!-- KENNELS  -->
+        <h2>Cucce per cani e gatti <i class="fa-solid fa-paw"></i></h2>
 
         <div class="row">
             <?php foreach ($kennels as $kennel) { ?>
