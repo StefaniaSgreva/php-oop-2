@@ -12,10 +12,10 @@ require_once __DIR__ . '/Models/Kennel.php';
 //PRODOTTI
 
 $foods = [
-    new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), '3kg', 'adult'),
-    new Food('https://www.robinsonpetshop.it/12918-thickbox_default/prolife-sterilised-sensitive-adult-quaglia-e-patate-per-gatti.jpg', 'Quaglia e Patate', 'prolife', 52.30, 10, new Category('<i class="fa-solid fa-shield-cat"></i>' . '<span class="categoryNameCat">Gatto</span>'), '8kg', 'adult'),
-    new Food('https://www.petschoice.it/download/61ce67d_1stchoicecucciolorosa.jpg', 'Agnello, Pesce e Riso', 'Puppy Chiot', 70.20, '', new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), '15kg', 'puppy'),
-    new Food('https://www.croccantinibio.it/wp-content/uploads/2020/03/crocchette-ultima-cane.jpg', 'Bovino e Cereali', 'ultima', 35.80, '25', new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), '3kg', 'adult'),
+    new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'adult'),
+    new Food('https://www.robinsonpetshop.it/12918-thickbox_default/prolife-sterilised-sensitive-adult-quaglia-e-patate-per-gatti.jpg', 'Quaglia e Patate', 'prolife', 52.30, 10, new Category('<i class="fa-solid fa-shield-cat"></i>' . '<span class="categoryNameCat">Gatto</span>'), 'adult'),
+    new Food('https://www.petschoice.it/download/61ce67d_1stchoicecucciolorosa.jpg', 'Agnello, Pesce e Riso', 'Puppy Chiot', 70.20, '', new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'puppy'),
+    new Food('https://www.croccantinibio.it/wp-content/uploads/2020/03/crocchette-ultima-cane.jpg', 'Bovino e Cereali', 'ultima', 35.80, '25', new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'adult'),
 ];
 $games = [
     new Game('https://i5.walmartimages.com/asr/a915e9cc-5517-4e4c-aa7f-6286b0efd5e7_1.d5a864a08084249b9f7a43857cf6527b.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff', 'Palla', 'Felix', 5.50, '', new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'blu'),
@@ -30,6 +30,12 @@ $kennels = [
     new Kennel('https://www.miciogatto.it/new/wp-content/uploads/2017/12/cuccia-per-gatti-leone-686x705.jpg', 'Cuccia Leone', 'Royal Cat', 45.50, '', new Category('<i class="fa-solid fa-shield-cat"></i>' . '<span class="categoryNameCat">Gatto</span>'), 'Smoll'),
 ];
 // var_dump($foods, $games, $kennels);
+
+//PROVA PER VEDERE CHE IL TRAITS 'Weightable' STA FUNZIONANDO
+$foodItem = new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'adult');
+$foodItem->setWeight('8', 'Kg');
+// var_dump($foodItem);
+
 
 //LAYOUT
 include __DIR__ . '/partials/header.php';

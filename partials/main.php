@@ -29,9 +29,10 @@
                                 <?php echo $food->discount ? $food->discount . '%' : '' ?>
                             </div>
                         </div>
-                        <div class="weight">
+                        <!-- <div class="weight">
                             <?php echo $food->weight ?>
-                        </div>
+                            <?php echo $food->setWeight('50', 'Kg') ?>
+                        </div> -->
                         <div class="age">
                             <?php echo $food->age ?>
                         </div>

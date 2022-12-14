@@ -1,5 +1,4 @@
 <?php
-
 class Product
 {
     //variabili d'istanza - VARIABLES
