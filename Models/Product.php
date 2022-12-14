@@ -23,13 +23,6 @@ class Product
         $this->category = $_category;
     }
 
-    //metodi - METHODS
-    function checkPrice($_price)
-    {
-        if ($_price < 1.00) {
-            throw new Exception("Value must be 1,00 or grater");
-        }
-        return true;
-    }
+//metodi - METHODS
 
 }
