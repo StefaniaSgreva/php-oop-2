@@ -17,6 +17,11 @@
 <body>
 
     <header>
+        <div class="logo">
+            <img src="https://purepng.com/public/uploads/large/purepng.com-dog-paw-printdogpetcatpuppyanimalprintpaw-981524650187n53s2.png"
+                class="logoImg" alt="logo">
+            <span class="shopName">Paws Kingdom</span>
+        </div>
         <ul>
             <li>Home</li>
             <li>Cibo</li>
