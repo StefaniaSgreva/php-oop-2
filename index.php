@@ -57,6 +57,8 @@ function multiplication($int)
 }
 
 // echo multiplication(2);
+// echo multiplication(2.5); fatal error perchè non è un intero
+
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
