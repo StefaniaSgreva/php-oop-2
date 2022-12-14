@@ -31,11 +31,22 @@ $kennels = [
 ];
 // var_dump($foods, $games, $kennels);
 
+//--------------------------------------------------------------------------------------------------------------------------------------------
 //PROVA PER VEDERE CHE IL TRAITS 'Weightable' STA FUNZIONANDO
+
+//prima categoria appricazione del trait
 $foodItem = new Food('https://b2b.puntorigenera.com/82901-thickbox_default/cartuccia-hp-302xl-nera-compatibile-per-hp-3830-3832-4650-1110-2130-3630-4520-f6u68ae-capacita-15ml-480-pagine.jpg', 'Pollo', 'Monge', 28.60, 20, new Category('<i class="fa-solid fa-shield-dog"></i>' . '<span class="categoryNameDog">Cane</span>'), 'adult');
 $foodItem->setWeight('8', 'Kg');
 // var_dump($foodItem);
+// echo $foodItem->getWeight();
 
+//seconda categoria appricazione del trait
+$grooming = new Product('https://images-na.ssl-images-amazon.com/images/I/61avlrcKmHL._SL1200_.jpg', 'Spazzola', 'Furminator', 10.50, '', new Category('<i class="fa-solid fa-shield-cat"></i>' . '<span class="categoryNameCat">Gatto</span>'));
+$grooming->setWeight('80', 'g');
+// var_dump($grooming);
+// echo $grooming->getWeight();
+
+//--------------------------------------------------------------------------------------------------------------------------------------------
 
 //LAYOUT
 include __DIR__ . '/partials/header.php';

@@ -31,7 +31,7 @@
                         </div>
                         <!-- <div class="weight">
                             <?php echo $food->weight ?>
-                            <?php echo $food->setWeight('50', 'Kg') ?>
+                            <?php echo $food->getWeight() ?>
                         </div> -->
                         <div class="age">
                             <?php echo $food->age ?>
