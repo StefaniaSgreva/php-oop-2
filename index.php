@@ -24,10 +24,10 @@ $games = [
     new Game('https://molinopisoni.it/50903-large_default/karlie-gioco-per-gatti-topo-loco.jpg', 'Topolini', 'Karlie', 15.60, '10', new Category("Gatto"), 'colori assortiti'),
 ];
 $kennels = [
-    new Kennel('https://www.cucciatiragraffi.it/wp-content/uploads/2020/02/cuccia-gatto-sacco.jpg', 'Cuccia sacco', 'Felix', 25.50, '', new Category("Gatto"), 'Small'),
+    new Kennel('https://www.cucciatiragraffi.it/wp-content/uploads/2020/02/cuccia-gatto-sacco.jpg', 'Cuccia sacco', 'Felix', 25.50, '', new Category("Gatto"), 'Smoll'),
     new Kennel('https://www.cucciapercani.info/wp-content/uploads/2018/08/pets-imperial-sussex-casa-per-cani-di-taglia-media-in-legno-1.jpg', 'Casetta in legno', 'Pets Imperial', 68.90, 10, new Category("Cane"), 'Large'),
     new Kennel('https://www.in-vendita.it/sh-img/habicat-cuccia-occhi-di-gatto-01-600x800_cuccia%2Bgatti.jpg', 'Cuccia in legno', 'Felix', 35.20, '', new Category("Gatto"), 'Medium'),
-    new Kennel('https://www.miciogatto.it/new/wp-content/uploads/2017/12/cuccia-per-gatti-leone-686x705.jpg', 'Cuccia Leone', 'Royal Cat', 45.50, '', new Category("Gatto"), 'Small'),
+    new Kennel('https://www.miciogatto.it/new/wp-content/uploads/2017/12/cuccia-per-gatti-leone-686x705.jpg', 'Cuccia Leone', 'Royal Cat', 45.50, '', new Category("Gatto"), 'Smoll'),
 ];
 // var_dump($foods, $games, $kennels);
 

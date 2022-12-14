@@ -17,5 +17,13 @@
 <body>
 
     <header>
-        HEADER
+        <ul>
+            <li>Home</li>
+            <li>Cibo</li>
+            <li>Giochi</li>
+            <li>Cucce</li>
+            <li>Contatti</li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <!-- <li><i class="fa-brands fa-opencart"></i></li> CARRELLO STILOSO-->
+        </ul>
     </header>

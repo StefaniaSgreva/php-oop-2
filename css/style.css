@@ -11,16 +11,40 @@ body{
 header{
     background-color: blanchedalmond;
     height: 60px;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 0 18px 0 rgba(109, 55, 16, .2);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: .75rem;
+}
+li{
+    margin-right: .75rem;
+    color: chocolate;
+    cursor: pointer;
+    transition: 250ms ease;
+    font-weight: 600;
+}
+li:hover{
+    color: rgb(109, 55, 16);
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    padding-top: 100px;
+    padding-bottom: 50px;
     width: 100%;
 }
 .container{
@@ -34,6 +58,7 @@ main{
 h2{
     width: calc(100% + 30px);
     background-color:  #f8f8f8;
+    box-shadow: 0 0 18px 0 rgba(109, 55, 16, .2);
     padding: .75rem;
     padding-left: 2.5rem;
     margin: 1rem;
@@ -70,7 +95,7 @@ h2{
 }
 .card:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 12px 0 lightgrey;
+    box-shadow: 0 0 12px 0 rgba(109, 55, 16, .2);
 }
 .category{
     background-color: white;
@@ -138,10 +163,20 @@ h3{
 }
 
 footer{
-     background-color: blanchedalmond;
+    background-color: blanchedalmond;
     height: 60px;
     /* position: fixed;
     bottom: 0; */
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credits{
+   font-size: 1.1rem;
+   color: chocolate;
+}
+.fa-heart{
+    margin: 0 .25rem;
+    font-size: .85rem;
 }
