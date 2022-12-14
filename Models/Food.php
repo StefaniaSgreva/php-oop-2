@@ -4,7 +4,7 @@ require_once __DIR__ . '/../Traits/Weightable.php';
 
 class Food extends Product
 {
-    use Weightable;
+    use Weightable; //applicata al figlio rimane relativa a lui
 
     // public $weight;
     public $age;
